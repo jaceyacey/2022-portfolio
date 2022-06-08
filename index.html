@@ -2,15 +2,83 @@
 <html>
   <head>
     <link href="./resources/css/style.css" type="text/css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jacey Sng</title>
   </head>
   <body>
-    <nav><h1>Jacey Sng</h1></nav>
-
-    <h2>About Me</h2>
-    <p></p>
-    <h2>Projects</h2>
-    <h2>Skills</h2>
-    <h2>Contact</h2>
+    <nav>
+      <h1>Jacey Sng</h1>
+      <ul class="navigation-items">
+        <li class="navigation-item"><a href="#about-me">About</a></li>
+        <li class="navigation-item"><a href="#projects">Projects</a></li>
+        <li class="navigation-item"><a href="#skills">Skills</a></li>
+        <li class="navigation-item"><a href="./contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="about-me">
+        <div class="about-me-container">
+          <div class="about-me-text-container">
+            <h2>About Me</h2>
+            <p>
+              I am bored with life. While I am good at what I do (Optometry), I
+              find no meaning in it. I enjoy life outside of work but I find it
+              such a chore to go to work.
+            </p>
+            <p>
+              Hence I am dabbling in programming, thanks to my lovely partner
+              Jason who keeps bragging about his wonderful work life as a
+              software engineer.
+            </p>
+            <p>Watch this space as I learn more.</p>
+          </div>
+          <img
+            class="portrait"
+            src="./resources/swimming-with-manta-ray.jpg"
+            alt="me swimming with a manta ray"
+          />
+        </div>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <details>
+          <summary class="project-title"><h3>My First Project</h3></summary>
+          <img
+            class="project-image"
+            src="./resources/corgi-puppy.jpg"
+            alt="image of my first project"
+          />
+          <p>
+            This is my cutest first attempt at a project using the stuff I have
+            recently learned.
+          </p>
+        </details>
+        <details>
+          <summary class="project-title"><h3>My Second Project</h3></summary>
+          <img
+            class="project-image"
+            src="./resources/corgi.jpg"
+            alt="image of my second project"
+          />
+          <p>
+            This is my amazing second attempt at a project using my new skillz
+            that I have leveled up.
+          </p>
+        </details>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Cooking</li>
+          <li>Painting my nails</li>
+          <li>Sleeping in front of the TV</li>
+          <li>Bitching about my neighbours</li>
+          <li>Indoor gardening</li>
+        </ul>
+      </section>
+    </main>
   </body>
+  <footer>copyright JaceFace 2022</footer>
 </html>

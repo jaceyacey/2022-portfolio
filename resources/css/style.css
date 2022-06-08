@@ -1,4 +1,62 @@
-h2 {
-    color: blue;
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 1.1rem;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav .navigation-items {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navigation-items a {
+  padding-left: 20px;
+}
+
+.about-me-container {
+  display: flex;
+}
+
+.about-me-text-container {
+  margin-right: 20px;
+}
+
+.portrait {
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+details {
+  cursor: pointer;
+}
+
+.project-title h3 {
+  display: inline-block;
+}
+
+.project-image {
+  width: 300px;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: 0.75rem;
 }
